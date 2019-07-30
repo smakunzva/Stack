@@ -1,6 +1,6 @@
 
 
-package datastractures.stack;
+package datastructures.stack;
 
 
 public class Employee {
@@ -20,9 +20,7 @@ public class Employee {
 		return "{ Name: " + this.name + " , Surname:  " + this.surname + " , id " + this.id + "}";
 	}
 
-
 	@Override
-
 	public boolean equals(Object o) {
 
 		if(this == o) return true;
